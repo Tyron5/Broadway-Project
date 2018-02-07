@@ -1,0 +1,148 @@
+body {
+    text-align: center;
+    font-family: Helvetica;
+}
+
+/*
+----------------------CSS Stylesheet Code-----------------------
+
+The code below will perform the following actions on information
+within the CSS element [ class='internal-link'; ]: 
+
+1) will change the color of the hyperlink to white
+
+---------------------------------------------------------------*/
+
+.internal-link {
+    color: white;
+  }
+
+
+
+.title {
+    background-image: url("C:/Users/A88XM-A001DT-AMD/Documents/Code-Academy/Projects/Broadway-Design/resources/image/the-flatiron-building.png");
+    background-size: cover;
+    
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+}
+
+/*
+----------------------CSS Stylesheet Code--------------------
+
+The code below will perform the following actions on text 
+within the HTML element <p> located inside CSS element: 
+class="title"
+
+1) All text within <p> element will be resize to 18 pixels
+
+------------------------------------------------------------*/
+
+.title p {
+    font-size: 18px;
+}
+  
+/*
+----------------------CSS Stylesheet Code--------------------
+
+The code below will perform the following actions on text 
+within the HTML element <p> located inside CSS element: 
+class="process"
+
+1) All text within <p> element will be resize to 32 pixels
+2) All text within <p> element will be bold
+
+------------------------------------------------------------*/
+
+.process p {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/*
+----------------------CSS Stylesheet Code--------------------
+
+The code below will perform the following actions on text 
+within the HTML element <p> located inside CSS element: 
+class="identify"
+
+1) All text within <p> element will be resize to 23 pixels
+2) All text within <p> element will be bold
+
+------------------------------------------------------------*/
+
+.fontSize-23 p {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+/*
+----------------------CSS Stylesheet Code--------------------
+
+The code below will perform the following actions on  
+information contained within CSS element: class="design"
+
+1) All text on the webpage within <p> element will be resize
+   to 13 pixels
+
+------------------------------------------------------------*/
+
+.design {
+    background-image: url("C:/Users/A88XM-A001DT-AMD/Documents/Code-Academy/Projects/Broadway-Design/resources/image/the-flatiron-building.png");
+    max-height: 296px;
+    max-width: 1830px;
+    color: white;
+}
+
+/*
+----------------------CSS Stylesheet Code--------------------
+
+The code below will perform the following actions on text 
+within the HTML element <p> located inside CSS element:
+
+1) All text on the webpage within <p> element will be resize
+   to 13 pixels
+
+------------------------------------------------------------*/
+
+p {
+  font-size: 14px;
+}
+
+/*
+----------------------CSS Stylesheet Code--------------------
+
+The code below will perform the following actions on text 
+within the HTML element <p> located inside CSS element:
+
+1) All text on the webpage within <p> element will be resize
+   to 13 pixels
+
+------------------------------------------------------------*/
+
+.footer {
+    text-align: left;
+    font-size: 11px;  
+    max-height: 30px;
+    max-width: 1830px;
+    color: white;
+    background-color: dimgray
+}
+
+/*
+----------------------CSS Stylesheet Code--------------------
+
+The code below will perform the following actions on text 
+within the footer table located inside CSS element: 
+class ="navFoot"
+
+1) All text on the webpage within <p> element will be resize
+   to 13 pixels
+
+------------------------------------------------------------*/
+
+.navFoot {
+    font-size: 16px;
+    font-weight: bold;
+}
