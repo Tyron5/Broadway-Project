@@ -47,7 +47,7 @@ within the CSS element [ class="title" ]:
 ---------------------------------------------------------------*/
 
 .title {
-    background-image: url("resources/image/the-flatiron-building.png");
+    background-image: url("../resources/image/the-flatiron-building.png");
     background-size: cover;
     font-size: 70px;
     font-weight: bold;
@@ -102,7 +102,7 @@ information contained within CSS element [ class="design" ]:
 ------------------------------------------------------------*/
 
 .design {
-    background-image: url("resources/image/the-flatiron-building.png");
+    background-image: url("../resources/image/the-flatiron-building.png");
     background-size: cover;
     font-size: 23px;
     color: white;
