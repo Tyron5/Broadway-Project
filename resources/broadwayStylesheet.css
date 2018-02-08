@@ -1,4 +1,11 @@
 /*
+StyleSheet Status: Complete
+Author: KnightCoder
+Date: 2/7/2018
+Revision: 1.4
+*/
+
+/*
 ----------------------CSS Stylesheet Code-----------------------
 
 The code below will perform the following actions on information
@@ -29,7 +36,6 @@ within the CSS element [ class="internal-link" ]:
 .internal-link {
     color: white;
     font-size: 18px;
-    font-weight: bold;
 }
 
 /*
@@ -39,87 +45,69 @@ The code below will perform the following actions on information
 within the CSS element [ class="title" ]: 
 
 1) Import background image "the-flatiron-building.png"
-2) Background size set to resize and "cover" space
-2) Text/font will be resize to 70 pixels
-3) Text/font will be bold
-4) Text/font will be white
+2) Set text/font to color white
 
 ---------------------------------------------------------------*/
 
 .title {
     background-image: url("../resources/image/the-flatiron-building.png");
-    background-size: cover;
-    font-size: 70px;
-    font-weight: bold;
     color: white;
 }
 
 /*
-----------------------CSS Stylesheet Code--------------------
+----------------------CSS Stylesheet Code-----------------------
 
-The code below will perform the following actions on text 
-within the HTML tag element <p> located inside CSS element 
-[ class="process" ]:
+The code below will perform the following actions on information
+within the <h1> HTML tag element: 
 
-1) Text/font within <p> element will be resize to 32 pixels
-2) Text/font within <p> element will be bold
+1) Text/font will be resize to 70 pixels
 
-------------------------------------------------------------*/
+---------------------------------------------------------------*/
 
-.process p {
-    font-size: 32px;
-    font-weight: bold;
+h1 {
+    font-size: 70px;
 }
 
 /*
-----------------------CSS Stylesheet Code--------------------
+----------------------CSS Stylesheet Code-----------------------
 
-The code below will perform the following actions on text 
-within the HTML tag element <p> located inside CSS element 
-[ class="identify" ]:
+The code below will perform the following actions on information
+within the <h2> HTML tag element: 
+
+1) Text/font will be resize to 32 pixels
+
+---------------------------------------------------------------*/
+
+h2 {
+    font-size: 32px;   
+}
+
+/*
+----------------------CSS Stylesheet Code-----------------------
+
+The code below will perform the following actions on information
+within the <h3> HTML tag element: 
 
 1) Text/font will be resize to 23 pixels
-2) Text/font will be bold
 
-------------------------------------------------------------*/
+---------------------------------------------------------------*/
 
-.fontSize-23 p {
+h3 {
     font-size: 23px;
-    font-weight: bold;
 }
 
 /*
-----------------------CSS Stylesheet Code--------------------
+----------------------CSS Stylesheet Code-----------------------
 
-The code below will perform the following actions on  
-information contained within CSS element [ class="design" ]:
+The code below will perform the following actions on information
+within the <p> HTML tag element: 
 
-1) Import background image "the-flatiron-building.png"
-2) background size set to resize and "cover" space
-3) Set text/font size to 23 pixels
-4) Set text/font color to "white"
+1) Text/font will be resize to 14 pixels
 
-------------------------------------------------------------*/
-
-.design {
-    background-image: url("../resources/image/the-flatiron-building.png");
-    background-size: cover;
-    font-size: 23px;
-    color: white;
-}
-
-/*
-----------------------CSS Stylesheet Code--------------------
-
-The code below will perform the following actions on text 
-on webpage within the HTML tag element <p>:
-
-1) will be resize to 14 pixels
-
-------------------------------------------------------------*/
+---------------------------------------------------------------*/
 
 p {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 /*
@@ -128,29 +116,29 @@ p {
 The code below will perform the following actions on text 
 within the located inside CSS element: [ class="footer" ]:
 
-1) All information will be placed to the left
-2) All text/font will be white
-3) The background will be set to "dimgray"
+1) The background will be set to "dimgray"
+2) All information will be placed to the left
+3) Set text/font to color white
+
 
 ------------------------------------------------------------*/
 
 .footer {
+    background-color: dimgray;
     text-align: left;
-    color: white;
-    background-color: dimgray
+    color: white;    
 }
 
 /*
 ----------------------CSS Stylesheet Code--------------------
 
 The code below will perform the following actions on text 
-within the HTML tag element <b> located inside CSS element
-[ class="footer" ]:
+within the located inside CSS element: [ class="footer" ]:
 
-1) Text/font within <b> element will be 11 pixels
+1) Set that text/font will be 11 pixels
 
 ------------------------------------------------------------*/
 
-.footer b {
+.footer p {
     font-size: 11px;
-  }
+}
